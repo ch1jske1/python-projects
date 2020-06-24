@@ -2,7 +2,7 @@ import wx
 import os
 import ftplib
 
-wx = wx.App()
+w = wx.App()
 screen = wx.ScreenDC()
 size = screen.GetSize()
 bmap = wx.Bitmap(size[0],size[1])
